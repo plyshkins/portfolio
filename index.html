@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="js.js" rel="" <title>Портфолио Бэллы Брусенцевой</title>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="brand">Портфолио Бэллы Брусенцевой</h1>
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="links-container">
+            <li class="links-item"><a href="#" class="link active">Главная</a></li>
+            <li class="links-item"><a href="#about-section" class="link">Мои навыки</a></li>
+            <li class="links-item"><a href="#contact-section" class="link">Напишите мне</a></li>
+        </ul>
+    </nav>
+    <section class="home">
+        <div class="hero-content">
+            <h1 class="hero-heading"><span class="highlight">Всем привет, </span>меня зовут Бэлла</h1>
+            <p class="profession">я начинающий веб-разработчик</p>
+            <a href="#contact-section" class="btn">Написать</a>
+        </div>
+    </section>
+    <section class="about" id="about-section">
+
+        <h2 class="heading">Мои навыки:</h2>
+        <div class="seperator"></div>
+        <div class="skill-container">
+            <div class="skill-card" style="--bg: #f06529">
+                <p class="skill">HTML</p>
+            </div>
+            <div class="skill-card" style="--bg: #379ad6">
+                <p class="skill">CSS</p>
+            </div>
+            <div class="skill-card" style="--bg: #cc6699">
+                <p class="skill">SCSS</p>
+            </div>
+            <div class="skill-card" style="--bg: #f7df1e">
+                <p class="skill">JavaScript</p>
+            </div>
+            <div class="skill-card large" style="--bg: #5ed9fb">
+                <p class="skill">ReactJS</p>
+            </div>
+            <div class="skill-card large" style="--bg: #83cd29">
+                <p class="skill">NodeJS</p>
+            </div>
+            <div class="skill-card" style="--bg: #326690">
+                <p class="skill">MySQL</p>
+            </div>
+            <div class="skill-card" style="--bg: #ffa000">
+                <p class="skill">PHP</p>
+            </div>
+            <div class="skill-card large" style="--bg: #5ed9fb">
+                <p class="skill">И другие</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Напишите<span class="highlight"> мне</span></h2>
+        <div class="seperator"></div>
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="Имя">
+                <input type="text" class="last-name" required placeholder="Фамилия">
+            </div>
+            <input type="email" required class="email" placeholder="email">
+            <textarea class="message" placeholder="Сообщение" required></textarea>
+            <button class="btn contact-btn">contact</button>
+        </div>
+    </section>
+    <footer class="footer">Брусенцева Б.А.</footer>
+</body>
+
+</html>
